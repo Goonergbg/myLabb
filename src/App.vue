@@ -34,11 +34,14 @@
     <Convert />
     <div id="gallery">
     <Gallery v-for="picture in pictures" :key="picture.image" :image="picture.image"/>
+    <br>
+    <br>
      </div>
 
      </div>
 
     <Shortcode />
+    
 </div>
 
   </main>

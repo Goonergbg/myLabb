@@ -8,7 +8,7 @@
 <div id="valorer">
           <h2>Svensk krona</h2>
           <p>
-            <router-link to="/mynt">Mynt</router-link> /
+            <router-link to="/mynt"> Mynt</router-link> /
             <router-link to="/sedlar">Sedlar</router-link>
           </p>
           <router-view></router-view>
