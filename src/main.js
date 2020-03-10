@@ -15,6 +15,11 @@ let store = new Vuex.Store({
     mynt: 'Valörer: 1, 2, 5, 10',
     sedlar: 'Valörer: 20, 50, 100, 200, 500, 1000',
   },
+  mutations: {
+    valorer(state) {
+      state.mynt += 20
+    }
+  }
 })
 
 let router = new VueRouter({

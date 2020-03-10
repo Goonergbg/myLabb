@@ -1,5 +1,5 @@
 <template>
-    <p>{{$store.state.mynt}}</p>
+    <p :value="$store.state.mynt" @click="$store.commit('valorer')">{{$store.state.mynt}}</p>
 </template>
 
 <script>
